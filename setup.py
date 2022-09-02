@@ -34,7 +34,7 @@ setup(
         "jinfiller = jinjafiller.main:main", 
     ]},
     classifiers=[
-        "License :: OSI Approved :: MIT",
+        "License :: OSI Approved :: MIT License",
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.12",
         "Programming Language :: Python :: 3.11",
@@ -44,4 +44,5 @@ setup(
         "Programming Language :: Python :: 3.7",
         "Programming Language :: Python :: 3.6",
     ],
+	install_requires=['Jinja2'],
 )
